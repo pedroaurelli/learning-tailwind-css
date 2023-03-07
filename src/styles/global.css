@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 body{
-  @apply bg-gray-900;
+  @apply bg-gray-500;
   @apply text-slate-100;
+}
+
+h1 {
+  @apply text-3xl font-semibold text-azul-pedrao;
+}
+
+h2 {
+  @apply font-medium text-gray-200 text-2xl;
 }

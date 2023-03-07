@@ -8,24 +8,24 @@ function App() {
         <div className='flex flex-row items-center'>
           <img className='w-24 rounded-full' alt='User Avatar' src='https://github.com/pedroaurelli.png'/>
           <div className='ml-4'>
-            <h3 className='font-semibold text-xl'>
+            <h1>
               Pedro Aureliano
-            </h3>
-            <h4 className='text-indigo-400 pt-2'>
+            </h1>
+            <h4 className='text-indigo-400 font-medium pt-2'>
               FullStack Developer
             </h4>
           </div>
         </div>
 
         <div className='mt-6'>
-          <h2 className='font-semibold text-2xl mb-2'>Bio</h2>
+          <h2>Bio</h2>
           <p className='text-gray-300 font-light mt-1 max-w-lg text-justify'>
           Bro ipsum dolor sit amet 360 beater switch ripper, frontside gapers spread eagle stunt liftie afterbang. Stunt huckfest ACL, bonk poaching heli booter heli free ride Whistler wack taco dust on crust caballerial gondy.
           </p>
         </div>
 
         <div className='mt-6'>
-          <h2 className='font-semibold text-2xl mb-2'>Career</h2>
+          <h2>Career</h2>
           <div className='mt-4'>
             <h3 className='text-indigo-400 font-medium'>Indigo Hive</h3>
             <ul className='list-disc list-inside pl-4'>
