@@ -2,7 +2,14 @@
 module.exports = {
   content: ['./src/**/*.{tsx,jsx,ts,js}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'azul-pedrao': '#2a8dde'
+      },
+      // breakpoints,
+      // fontSize,
+      // boxShadow...
+    },
   },
   plugins: [],
 }
